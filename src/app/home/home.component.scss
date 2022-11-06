@@ -1,0 +1,49 @@
+.home-page {
+    // Start About Section
+    .about-section {
+        .about-img {
+            figcaption {
+                p {
+                    font-family: 'GothamBookItalic';
+                    color: #2A2A2A;
+                    font-size: 14px;
+                    margin-top: 25px;
+                }
+            }
+        }
+        .about-info {
+            header {
+                h3 {
+                    color: #000000;
+                    font-size: 45px;
+                    font-family: 'GothamBold';
+                    margin-bottom: 43px;
+                    span {
+                        &:last-child {
+                            position: relative;
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                bottom: -2px;
+                                right: 0;
+                                background-color: #0093DE;
+                                height: 18px;
+                                width: 102.5px;
+                                opacity: 0.55;
+                            }
+                        }
+                    }
+                }
+            }
+            article {
+                p {
+                    color: #2A2A2A;
+                    font-size: 20px;
+                    font-family: 'GothamBook';
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    // End About Section
+}
