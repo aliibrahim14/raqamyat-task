@@ -1,0 +1,34 @@
+footer {
+    .info {
+        .logo-img {
+            img {
+                width: 100%;
+                max-width: 134px;
+            }
+        }
+        p {
+            margin-top: 22px;
+            color: #2A2A2A;
+            font-size: 14px;
+            font-family: 'GothamLight';
+            a {
+                color: #027AB7;
+                text-decoration: none;
+                font-family: 'GothamBook';
+            }
+        }
+        ul {
+            display: inline-flex;
+            flex-wrap: wrap;
+            li {
+                margin-right: 10px;
+                a {
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
